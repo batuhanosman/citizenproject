@@ -1,0 +1,12 @@
+services:
+  db:
+    image: "postgres:14.1-alpine"
+    restart: on-failure
+    volumes:
+      - .:/app
+    environment:
+      - POSTGRES_DB=citizen
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"

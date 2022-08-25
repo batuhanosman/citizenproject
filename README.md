@@ -10,11 +10,13 @@ Java 11, Spring, Spring Boot, Hibernate, JUnit and Intellij or Eclipse for devel
 ###### EndPoints
 
 ---
-- /api/citizen -> Post (Create Citizen)
+- /citizen -> Post (Create Citizen)
 ---
-- /api/citizen -> Put (Update Citizen)
+- /citizen -> Put (Update Citizen)
 ---
-- /api/citizen/{citizenId} -> Get (Get Citizen By Id)
+- /citizen/{citizenId} -> Get (Get Citizen By Id)
+---
+- /citizen/find-by-parameters -> Post (Find Citizen By Parameters)
 ---
 ## Testing Application
 
